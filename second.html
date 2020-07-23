@@ -39,6 +39,7 @@
      
     </form>
     <div class="div">
+    
       <form>
         <label for="fname">First Name</label>
         <input
@@ -54,9 +55,12 @@
           name="lastname"     
         />
         <label for="email">Email</label>
-        <input type="text" id="email" name="email"/>
-        <label for="phone">Enter a phone number:</label><br><br>
-  <input type="tel" id="phone" name="phone"/>
+        <input type="text" id="email" name="email"
+        />
+        
+
+        <label for="phone">Telephone:</label>
+        <input type="number" id="phone" name="phone"/>
 
         <label for="country">Country</label>
         <select id="country" name="country">
@@ -66,10 +70,19 @@
           <option value="macedonia">Macedonia</option>
           <option value="germany">Germany</option>
         </select>
+
+        <input type="date" value="01/12/1990"/>
+        <input type="date" value="01/12/1990"/>
+
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label><br />
        
 
         <input type="submit" value="Submit" />
       </form>
+    
     </div>
 
     <!-- Add your site or application content here -->
